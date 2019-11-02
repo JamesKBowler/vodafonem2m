@@ -11,7 +11,7 @@ setup(
   download_url = 'https://github.com/JamesKBowler/vodafonem2m/archive/0.1.tar.gz',
   keywords = ['Vodafone M2M Python API', 'Vodafone M2M', 'Python M2M'],
   install_requires=[
-        requests
+        'requests'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
