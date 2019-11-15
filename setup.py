@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'vodafonem2m',
   packages = ['vodafonem2m'],
-  version = '0.1',
+  version = '0.3',
   license='GNU GENERAL PUBLIC LICENSE',
   description = 'Provides access to Vodafone M2M endpoints via the REST API.',
   author = 'James K Bowler',
