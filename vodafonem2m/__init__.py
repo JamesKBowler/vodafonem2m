@@ -1,1 +1,6 @@
 from vodafonem2m.vodafonem2m import VodafoneM2M
+from vodafonem2m.m2m_device import M2MDevices
+from vodafonem2m.m2m_network import M2MNetwork
+from vodafonem2m.m2m_provisioning_profiles import M2MTProvisioningProfiles
+from vodafonem2m.m2m_tariff import M2MTariffs
+from vodafonem2m.m2m_tariff import VodafoneM2M
