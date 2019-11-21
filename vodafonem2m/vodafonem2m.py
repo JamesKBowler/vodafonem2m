@@ -49,7 +49,7 @@ class VodafoneM2M:
         :return:
         """
         headers = {
-            'Authorization': "Basic base64({}:{})".format(username, password),
+            'Authorization': "Basic " + base64.standard_b64encode(username+":"+password),
             'Content-Type': "application/x-www-form-urlencoded",
             'Accept': "*/*",
             'Cache-Control': "no-cache",
