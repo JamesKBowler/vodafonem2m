@@ -10,7 +10,7 @@ Provides access to Vodafone M2M endpoints via the REST API.
 from vodafonem2m.m2m_device import M2MDevices
 
 username = "youremail@company.com"
-password = " password "
+password = "password"
 client_id = "api_key"
 client_secret = "api_secret"
 
