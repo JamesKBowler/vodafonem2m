@@ -48,8 +48,9 @@ class VodafoneM2M:
         :param password:
         :return:
         """
+        concat_string = "{}:{}".format(username, password)
         headers = {
-            'Authorization': "Basic " + base64.standard_b64encode(username+":"+password),
+            'Authorization': "Basic " + base64.standard_b64encode(concat_string),
             'Content-Type': "application/x-www-form-urlencoded",
             'Accept': "*/*",
             'Cache-Control': "no-cache",
